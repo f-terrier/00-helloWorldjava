@@ -18,22 +18,15 @@ public class HelloWorld {
     public static void main(String[] args) {
         Scanner sx = new Scanner(System.in);
         Scanner sy = new Scanner(System.in);
-        int x, y;
-        System.out.print("Saisir x : ");
-        x = sx.nextInt();
-        System.out.print("Saisir y : ");
-        y = sy.nextInt();
+        float a, b;
+        System.out.print("Saisir a : ");
+        a = sx.nextFloat();
+        System.out.print("Saisir b : ");
+        b = sy.nextFloat();
         
-        System.out.println("Avant permutation : x=" + x +" y="+ y);
-        
-        int tmp = x;
-        x = y;
-        y = tmp;
-        
-        System.out.println("Apres permutation : x=" + x +" y="+ y);
-        
-        // TODO code application logic here
-        System.out.println("Hello world\nyay");
+        float res = ( a + b ) * 2;
+
+        System.out.println("Resultat : " + res);
     }
     
 }
