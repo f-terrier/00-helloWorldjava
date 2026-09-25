@@ -16,6 +16,30 @@ public class HelloWorld {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
+        Exercice 4 :
+        
+            Scanner sx = new Scanner(System.in);
+            Scanner sy = new Scanner(System.in);
+            int x, y;
+        
+            System.out.print("Saisir x : ");
+            x = sx.nextInt();
+        
+            System.out.print("Saisir y : ");
+            y = sy.nextInt();
+        
+            System.out.println("Avant permutation : x=" + x +" y="+ y);
+        
+            int tmp = x;
+            x = y;
+            y = tmp;
+        
+            System.out.println("Apres permutation : x=" + x +" y="+ y);
+        
+        */
+        
+        
         Scanner sx = new Scanner(System.in);
         Scanner sy = new Scanner(System.in);
         float a, b;
